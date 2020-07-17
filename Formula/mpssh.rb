@@ -6,7 +6,7 @@ class Mpssh < Formula
 
   stable do
     url "https://github.com/ndenev/mpssh/archive/master.tar.gz"
-    sha256 "510e11c3e177a31c1052c8b4ec06357c147648c86411ac3ed4ac814d0d927f2f"
+    sha256 "ea612afabee785855659130ad6dd8a2bc28f19636f71f88061dc6749574c934d"
     patch do
       # don't install binaries as root (upstream commit)
       url "https://github.com/ndenev/mpssh/commit/3cbb868b6fdf8dff9ab86868510c0455ad1ec1b3.diff?full_index=1"
